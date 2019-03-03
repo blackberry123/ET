@@ -85,8 +85,8 @@ namespace ILRuntime.Runtime.Generated
             ETModel_SceneChangeComponent_Binding.Register(app);
             ETModel_C2G_EnterMap_Binding.Register(app);
             ETModel_Session_Binding.Register(app);
-            System_Threading_Tasks_Task_1_IResponse_Binding.Register(app);
-            System_Runtime_CompilerServices_TaskAwaiter_1_IResponse_Binding.Register(app);
+            ETModel_ETTask_1_IResponse_Binding.Register(app);
+            ETModel_ETTask_1_IResponse_Binding_Awaiter_Binding.Register(app);
             ETModel_G2C_EnterMap_Binding.Register(app);
             ETModel_Player_Binding.Register(app);
             ETModel_M2C_CreateUnits_Binding.Register(app);
@@ -103,7 +103,6 @@ namespace ILRuntime.Runtime.Generated
             ETModel_ETVoid_Binding.Register(app);
             ETModel_GizmosDebug_Binding.Register(app);
             System_Collections_Generic_List_1_Vector3_Binding.Register(app);
-            PF_Vector3_Binding.Register(app);
             Google_Protobuf_Collections_RepeatedField_1_Single_Binding.Register(app);
             UnityEngine_LayerMask_Binding.Register(app);
             UnityEngine_Input_Binding.Register(app);
@@ -141,6 +140,7 @@ namespace ILRuntime.Runtime.Generated
             ETModel_Component_Binding.Register(app);
             ETModel_IMessagePacker_Binding.Register(app);
             ETModel_OpcodeHelper_Binding.Register(app);
+            ETModel_StringHelper_Binding.Register(app);
             ETModel_ETTaskCompletionSource_1_Google_Protobuf_Adapt_IMessage_Binding_Adaptor_Binding.Register(app);
             System_Threading_CancellationToken_Binding.Register(app);
             ETModel_ErrorCode_Binding.Register(app);
